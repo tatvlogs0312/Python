@@ -10,6 +10,7 @@ print(s)
 course = 'Python For Beginners'
 # len(s) => lấy độ dài của s
 print("Độ dài chuỗi : " + str(len(course)))
+
 # s[x] => lấy giá trị ở vị trí x <=> index
 print("Giá trị ở index thứ 3 : " + course[3])
 # s[-x] => lấy giá trị ở vị trí len(s) - x
@@ -21,6 +22,8 @@ print("Giá trị từ 3 trở đi : " + course[3:])
 print("Giá trị từ đầu đến cuối : " + course[:])
 print("Giá trị từ 3 đến -3 : " + course[3:-3])
 print("Giá trị từ -3 đến 3 : " + course[-3:3])
+
+
 
 # todo: Formatted strings
 first = 'Trần'
