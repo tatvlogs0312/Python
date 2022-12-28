@@ -3,4 +3,5 @@
 2.Strings : Formatted strings, String method  
 3.Operations : Toán tử trong python  
 4.MathFunction : Các hàm toán học  
-5.If_Else: Câu lệnh rẽ nhánh 
+5.If_Else: Câu lệnh rẽ nhánh  
+6.While: while trong python
