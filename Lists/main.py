@@ -47,8 +47,9 @@ print(f"List sau khi xóa phần tử 2 : {lists}")
 print(f"Giá trị của list ở index 0 : {lists[0]}")
 print(f"Giá trị của list ở index 2 : {lists[2]}")
 
-# 5: list.index(x) => lấy giá trị ở vị trí x
-print(f"Giá trị của list ở index 1 : {lists.index(1)}")
+# 5: list.index(x) => lấy index của x trong list
+print(f"Vị trí của phần tử 1 trong list : {lists.index(1)}")
+print(f"Vị trí của phần tử 5 trong list : {lists.index(5)}")
 
 # 6: lists.count(x) => đếm số lượng x có trong list
 print(f"Số lượng phần tử 2 có trong list : {lists.count(2)}")
