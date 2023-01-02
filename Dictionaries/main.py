@@ -26,6 +26,12 @@ print(customer)
 customer["birth_date"] = "2002-12-03"
 print(customer)
 
+# keys() => lấy tất cả key trong dict
+print(customer.keys())
+
+# values() => lấy tất cả value trong dict
+print(customer.values())
+
 # example
 phone = input("phone : ")
 digits_mapping = {
