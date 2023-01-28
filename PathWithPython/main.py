@@ -4,8 +4,10 @@ from pathlib import Path
 pathEcommerce = Path("ecommerce")
 print(pathEcommerce.exists())
 
-# pathEmail = Path("emails")
-# print(pathEmail.mkdir())
+# tạo một thư mục mới
+pathEmail = Path("emails")
+if not pathEmail.exists():
+    pathEmail.mkdir()
 
 path = Path()
 print(path.glob('*.py'))
